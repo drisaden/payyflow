@@ -1,0 +1,115 @@
+.btn-outline-pink{
+    border: 1px solid var(--bs-pink)  !important;
+}
+.button-content .content .link-btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #ee0979;
+    position: relative;
+    margin-top: 5px;
+    line-height: 1;
+    }
+      
+.button-content .content .link-btn::before {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0%;
+height: 1px;
+background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+.button-content .content .link-btn:hover::before {
+width: 100%;
+}
+.container{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.fa-chevron-down{
+    margin-left: 3px !important;
+}
+.flag-icon {
+    position: relative;
+    display: inline-block;
+    width: 1.33333em;
+    line-height: 1em;
+}
+.flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.flex-child{
+        flex: 0 1 calc(33.3% - 20px);
+}
+.hero-logo{
+    display: flex;
+    position: relative;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.nav-link{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.gh-flag{
+    background-image: url(/./assets/img/gh.svg);
+    }
+ 
+.payyflow-flag{
+    background-image: url(/./assets/img/global-img.png);
+}
+.ng-flag{
+    background-image: url(/./assets/img/ng.svg);
+    }
+.single-features-box {
+    box-shadow: 2px 2px 3px rgb(206, 206, 206);
+}
+.single-features-box>.card-link:hover{
+    color: #ffffff !important;
+}
+.text-pink{
+    color: var(--bs-pink);
+}
+.top-hero-logos{
+    flex: 1 1 0%;
+}
+.top-hero-logos .hero-logo{
+    width: 100px;
+    margin: 0px 24px 0px 0px;
+    float: left;
+}
+.top-hero-video{
+    text-align: right;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in 0s;
+    z-index: 3;
+}
+
+.za-flag{
+    background-image: url(/./assets/img/za.svg);
+    }
+    .main-banner-woman-content .btn-list .btn-pink{
+        color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+
+    }    
+.main-banner-woman-content .btn-list li .btn-pink:hover {
+    color: #ee0979 !important;
+    border-bottom: 1px solid #ee0979 !important;
+    }
+.wrap-section-title{
+    max-width: 100% !important;
+}
+.wrap-section-title>h2 {
+    font-size: 2.5rem !important;
+}
